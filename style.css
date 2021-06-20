@@ -1,0 +1,329 @@
+body{
+  margin: 0;
+}
+
+span{
+  font-weight: bold;
+}
+
+span a:link{
+  color: #16293E;
+}
+
+.anchor a:link{
+  color: #325288;
+}
+
+blockquote{
+  font-size: 17px;
+  font-family: SourceSans-Pro;
+  margin:0px 12px;
+  text-align: justify;
+  font-weight: 440;
+  color: #4D5E6E;
+}
+
+.fixed-button{
+  position: fixed;
+  
+  width: 12%;
+  height: 5%;
+  border: none;
+  border-radius: 10px;
+  right: 25px;
+  bottom: 17px;
+  z-index: 2;
+  background-color: #0C243C;
+}
+
+.fixed-button a{
+  font-size: 27px;
+  font-family: Agron;
+  color: white;
+  text-decoration: none;
+  display:inline;
+  padding: 4px 15px 0px 13px;
+  position: absolute;
+  top:1%;
+  left:6%;
+}
+
+.navbar{
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0px;
+  top: 0;
+  width: 100%;
+  z-index: 1
+}
+
+
+/*font*/
+
+@font-face{
+  font-family: 'Agron';
+  src: url('Agron.otf')
+}
+
+@font-face {
+  font-family: SourceSans-Pro;
+  src: url('SourceSansPro-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'High Jersey';
+  src: url('High Jersey.woff') format('woff');
+}
+
+
+/*heading*/
+
+h1{
+   color: #16293E;
+   line-height: 1.2em;
+   font-family: Agron;
+   font-weight: bolder;
+   font-size: 35px;
+   text-align: left;
+}
+
+h1.h1{
+  color: #3D4E5E;
+}
+h1.h2{
+  color: #3A393B;
+}
+h1.h3{
+  color: #321847;
+}
+h1.h4{
+  color: #E36961;
+}
+h1.h5{
+  color: #2F5D62;
+}
+h1.h6{
+  color: #766161;
+}
+
+h2{
+  color: #3A393B;
+  font-family: Agron;
+}
+h2.h1{
+  color: #321847;
+}
+h2.h2{
+  color: #2F5D62;
+}
+h2.h3{
+  color:white;
+  text-align: center;
+}
+
+h3{
+  font-family: Agron;
+  color: #2F5D62;
+}
+h3.h1{
+  color: #393E46;
+}
+
+/*paragraph*/
+
+p{
+  color: #16293E;
+  font-family: SourceSans-Pro;
+  font-size: 17px;
+  line-height: 1.3em;
+}
+
+p.p1{
+  color: #3A393B;
+}
+p.p2{
+  color: #321847;
+}
+p.p3{
+  color: black;
+}
+p.p4{
+  color: #393E46;
+}
+
+/*image*/
+.image1{
+  width: 80px;
+  display: inline;
+  position: relative;
+  bottom: 12px;
+  right:5px;
+  
+}
+.pp1{
+  display: inline;
+  position: absolute;
+  font-family: High Jersey, Agron;
+  font-weight: 300; 
+  color: #393E46;
+}
+
+.header-img1{
+  width: 49px;
+  display: inline;
+  margin: 0 10px 0 15px;
+}
+.header-img2 {
+  width: 40px;
+  display: inline;
+  margin: 0 10px 0 10px;
+}
+.header-img3{
+  width: 35px;
+  display: inline;
+  margin: 0 10px 0 10px;
+  padding-bottom: 5px;
+}
+.header-img4{
+  width: 35px;
+  display: inline;
+  margin: 0 10px 0 17px;
+  padding-bottom:3px;
+}
+
+
+/*newsletter*/
+
+.newsletter{
+  background-color:#35363C;
+  width: 100%;
+  padding: 8px 0 25px 0;
+  border: none;
+  border-radius: 10px;
+}
+
+input[type="email"],[type="text"], textarea{
+  height: 30px;
+  width:252px;
+  color:white;
+  background-color: #212227;
+  border:1px solid grey;
+  border-radius: 10px;
+  margin: 5px 0px 5px 35px;
+}
+
+input,textarea::placeholder{
+  color:#59626B;
+  text-indent:6px;
+}
+textarea::placeholder{
+  padding-top: 7px;
+}
+button{
+  width: 150px;
+  height: 35px;
+  border: 1px solid grey;
+  border-radius: 20px;
+  color: white;
+  background-color: #181F27;
+  text-align: center;
+  margin-left: 85px;
+  font-family: Agron;
+}
+label{
+  color:white;
+  font-family: Agron;
+  margin:0 0 5px 38px;
+  
+}
+
+/*id*/
+
+#contact{
+  padding-top:60px;
+}
+#website{
+  padding-top: 60px;
+}
+#what-to-do{
+  padding-top: 60px;
+}
+#why{
+  padding-top: 60px;
+}
+
+/*color*/
+
+.color1{
+  background-color: #F2EAE7;
+  padding: 20px;
+}
+.color2{
+  background-color: #D1DBEE;
+  padding: 20px
+}
+.color3 {
+  background-color: #486DDA;
+  padding: 20px
+}
+.color4 {
+  background-color: #EEDEDF;
+  padding: 20px
+}
+.color5 {
+  background-color: #E36961;
+  padding: 20px
+}
+.color6 {
+  background-color: #0C243C;
+  padding: 3px;
+  padding-bottom: 2px;
+}
+.color7{
+  background-color: #E6E3F4;
+  padding: 20px;
+  
+}
+.color8{
+  background-color: #DEE4F0;
+  padding: 20px;
+}
+.color9 {
+  background-color: #16293E;
+  padding: 20px;
+}
+.color10 {
+  background-color:#E14063 ;
+  padding: 20px
+}
+.color11{
+  background-color: #3d4e5e;
+  padding: 20px;
+}
+.color12{
+  background-color: #D1D5CE;
+  padding: 20px
+}
+.color13 {
+  background-color: #CBCCCA;
+  padding: 20px
+}
+.color14 {
+  background-color: #3A393B;
+  padding: 20px
+}
+.color15{
+  background-color: #F9EEDC;
+  padding: 20px;
+}
+.color16{
+  color: #321847;
+  padding: 20px;
+}
+.color17{
+background-color: #D4CFC9;
+  padding: 20px;
+  padding-bottom: 40px
+}
+
+
